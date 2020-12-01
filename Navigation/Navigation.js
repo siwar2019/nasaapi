@@ -19,4 +19,8 @@ const SearchStackNavigator = createStackNavigator({
   }
 })
 
+<<<<<<< HEAD
 export default createAppContainer(SearchStackNavigator) */
+=======
+export default createAppContainer(SearchStackNavigator) */
+>>>>>>> 935ca1274738548288c43f526f1396dd4155aaa5
