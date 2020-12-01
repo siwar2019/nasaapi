@@ -7,6 +7,7 @@ class Search extends React.Component {
 
   _displayDetails = (id) => {
     console.log("Display id " + id)
+   // this.props.navigation.navigate("Details", { id: id })
   }
   render() {
     return (

@@ -11,6 +11,9 @@ class Details extends React.Component {
       <TouchableOpacity
         style={styles.main_container}
         onPress={() => displayDetails(element.id)}>
+           <View style={styles.main_container}>
+        <Text>Détail  {this.props.navigation.state.params.id}</Text>
+      </View>
      
       </TouchableOpacity>
     )
